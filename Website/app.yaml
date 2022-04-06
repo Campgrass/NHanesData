@@ -7,8 +7,8 @@ runtime: python39
 handlers:
   # This configures Google App Engine to serve the files in the app's static
   # directory. 
-- url: /style
-  static_dir: style
+- url: /style/*
+  static_dir: style/*
 
   # This handler routes all requests not caught above the main app. Redirects traffic.
 - url: /.*
