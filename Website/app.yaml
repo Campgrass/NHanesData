@@ -1,0 +1,15 @@
+#google app engine 
+#This is a configuration file for the deployment of the flask app
+
+
+runtime: python39
+
+handlers:
+  # This configures Google App Engine to serve the files in the app's static
+  # directory. 
+- url: /static
+  static_dir: static
+
+  # This handler routes all requests not caught above the main app. Redirects traffic.
+- url: /.*
+  script: auto
