@@ -1,0 +1,2 @@
+# version of flask that is running
+Flask==2.1.1
