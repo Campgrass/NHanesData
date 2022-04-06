@@ -3,3 +3,5 @@
 [user]
 	email = tgtohyeah@gmail.com
 	name = Campgrass
+[core]
+	excludesfile = /home/campgrass/.gitignore_global
