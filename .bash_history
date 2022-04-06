@@ -59,3 +59,5 @@ git commit "adding gitignore"
 git commit -a
 git push origin main
 git commit origin main
+git commit -a
+git push origin main
