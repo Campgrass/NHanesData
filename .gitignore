@@ -1,0 +1,8 @@
+.config/*
+
+/.docker/*
+.bash_history
+.bash_logout
+.bashrc
+.profile
+ReadMe-cloudshell.txt

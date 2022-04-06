@@ -1,15 +1,17 @@
-# Authenticating and connecting with our Google Cloud Storage Bucket allowing us to push and create files.
-from google.colab import auth
-auth.authenticate_user()
 
-!echo "deb http://packages.cloud.google.com/apt gcsfuse-bionic main" > /etc/apt/sources.list.d/gcsfuse.list
-!curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add -
-!apt -qq update
-!apt -qq install gcsfuse
+
+# Authenticating and connecting with our Google Cloud Storage Bucket allowing us to push and create files.
+#from google.colab import auth
+#auth.authenticate_user()
+
+#!echo "deb http://packages.cloud.google.com/apt gcsfuse-bionic main" > /etc/apt/sources.list.d/gcsfuse.list
+#!curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add -
+#!apt -qq update
+#!apt -qq install gcsfuse
 
 #Run after authenticating to create a mounted folder
-!mkdir data2
-!gcsfuse nhanes data2
+#!mkdir data2
+#!gcsfuse nhanes data2
 
 # Importing the packages needed
 import wget
