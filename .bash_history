@@ -56,3 +56,6 @@ nano app.yaml
 gcloud app deploy
 touch .gitignore
 git commit "adding gitignore"
+git commit -a
+git push origin main
+git commit origin main
