@@ -36,3 +36,23 @@ git config user.mail
 git config user.email
 git status
 git add -a
+git add .
+git push origin main
+git push
+git push --set-upstream origin main
+cd
+git commit -m "init"
+git push origin main
+git pull
+git pull origin main
+git pull --allow-unrelated-histories
+git pull origin main
+git pull origin main --allow-unrelated-histories
+git push origin main
+ls
+cd Website
+ls
+nano app.yaml
+gcloud app deploy
+touch .gitignore
+git commit "adding gitignore"
